@@ -12,7 +12,6 @@ body{
 .container{
     max-width: 1160px;
     margin: 0px;
-    padding-bottom: 50px;
 }
 /* global  */
 .btn-main {
@@ -44,29 +43,70 @@ body{
 .intro-section{
     color: white;
     text-align: center;
-    
-   
 }
 
 .intro-pra{
     margin-top: 10px;
     padding: 0px 80px;
     text-align: center;
-   
     font-size: 15px;
 }
 
-/* donet-section  */
-.donet-section{
-    margin-top: 50px;
+/* donet-plan-section  */
+.donet-balance-section{
+    margin-top: 90px;
 }
-.donet-header{
+.donet-balance-header{
     text-align: center;
 }
-.donet-header h2{
+.donet-balance-header h2{
   font-weight: 800;
 }
-.donet-header p{
+.donet-balance-header p{
+   color: gray;
+   font-size: 15px;
+   margin-top: 5px;
+}
+.donet-balance{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .donet-balance-card{
+   margin: 25px 10px;
+   border: none;
+   box-shadow: 10px 10px 10px lightgray;
+   height: 60px;
+   color: black;
+   font-weight: 700;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   padding: 15px;
+   transition: 0.8s all ease-in-out;
+ }
+.donet-balance-card:hover{
+ background-color: sandybrown;
+ border: 1px solid orangered;
+}
+.donet-balance-footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.donet-balance-footer small{
+    border-bottom: 1px solid grey;
+}
+
+/* donet-plan-section  */
+.donet-plan-section{
+    margin-top: 90px;
+}
+.donet-plan-header{
+    text-align: center;
+}
+.donet-plan-header h2{
+  font-weight: 800;
+}
+.donet-plan-header p{
    color: gray;
    font-size: 15px;
    margin-top: 5px;
@@ -85,7 +125,6 @@ body{
 }
 .donet-card P{
     font-size: 15px;
-    
     margin-top: 10px;
 }
 .food{
@@ -100,7 +139,7 @@ body{
 
 /* update-section  */
 .update-section{
-    margin-top: 50px;
+    margin-top: 90px;
 }
 .update-header{
     text-align: center;
@@ -147,4 +186,21 @@ body{
     outline: none;
     background-color: wheat;
     padding: 10px;
+}
+
+/* footer  */
+.footer{
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+.footer h5 {
+    color: red;
+}
+.footer p {
+    color: white;
+    font-size: 13px;
 }
