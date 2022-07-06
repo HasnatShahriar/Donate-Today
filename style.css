@@ -30,10 +30,10 @@ body{
 }
 .btn-main:hover{
    background-color: green;
-   color: white;
+  color: white;
 }
 .top-banner{
-    background-image: url(images/donation10.jpg);
+    background-image: url(images/donation14.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body{
     height: 100vh;
 }
 .intro-section{
-    color: white;
+    color: rgb(6, 6, 64);
     text-align: center;
 }
 
@@ -52,27 +52,27 @@ body{
     font-size: 15px;
 }
 
-/* donet-plan-section  */
-.donet-balance-section{
+/* donate-plan-section  */
+.donate-balance-section{
     margin-top: 90px;
 }
-.donet-balance-header{
+.donate-balance-header{
     text-align: center;
 }
-.donet-balance-header h2{
+.donate-balance-header h2{
   font-weight: 800;
 }
-.donet-balance-header p{
+.donate-balance-header p{
    color: gray;
    font-size: 15px;
    margin-top: 5px;
 }
-.donet-balance{
+.donate-balance{
     display: flex;
     justify-content: space-around;
     align-items: center;
  }
- .donet-balance-card{
+ .donate-balance-card{
    margin: 25px 10px;
    border: none;
    box-shadow: 10px 10px 10px lightgray;
@@ -84,46 +84,46 @@ body{
    padding: 15px;
    transition: 0.8s all ease-in-out;
  }
-.donet-balance-card:hover{
+.donate-balance-card:hover{
  background-color: sandybrown;
  border: 1px solid orangered;
 }
-.donet-balance-footer{
+.donate-balance-footer{
     text-align: center;
     margin-top: 20px;
 }
-.donet-balance-footer small{
+.donate-balance-footer small{
     border-bottom: 1px solid grey;
 }
 
-/* donet-plan-section  */
-.donet-plan-section{
+/* donate-plan-section  */
+.donate-plan-section{
     margin-top: 90px;
 }
-.donet-plan-header{
+.donate-plan-header{
     text-align: center;
 }
-.donet-plan-header h2{
+.donate-plan-header h2{
   font-weight: 800;
 }
-.donet-plan-header p{
+.donate-plan-header p{
    color: gray;
    font-size: 15px;
    margin-top: 5px;
 }
-.donet-plan{
+.donate-plan{
    display: flex;
    justify-content: space-around;
    align-items: center;
 }
-.donet-card{
+.donate-card{
   margin: 20px;
   height: 220px;
   border: 1px solid lightgrey;
   border-radius: 5px;
   padding: 15px;
 }
-.donet-card P{
+.donate-card P{
     font-size: 15px;
     margin-top: 10px;
 }
@@ -136,6 +136,39 @@ body{
 .education{
     background-color: goldenrod;
 }
+
+/* bounes section  */
+
+.bounes-1{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bounes-header{
+    text-align: center;
+}
+.bounes-img{
+    width: 75%;
+    height: 75%;
+}
+.btn-bounes{
+    margin: 25px 10px;
+    border: none;
+    box-shadow: 10px 10px 10px lightgray;
+    height: 60px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+    transition: 0.8s all ease-in-out;
+}
+.btn-bounes:hover{
+    background-color: green;
+    color: white;
+ }
 
 /* update-section  */
 .update-section{
@@ -153,7 +186,7 @@ body{
    margin-top: 5px;
 }
 .update-input-section{
-    background-color: aquamarine;
+    background-color:antiquewhite;
     margin: 15px 90px;
     padding: 80px;
 }
@@ -199,6 +232,7 @@ body{
 }
 .footer h5 {
     color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .footer p {
     color: white;
